@@ -1,0 +1,23 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Frontend of tank monitor.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristynhoward/tank-monitor-web-app.git"
+  },
+  "author": "Cristyn Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristynhoward/tank-monitor-web-app/issues"
+  },
+  "homepage": "https://github.com/cristynhoward/tank-monitor-web-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
