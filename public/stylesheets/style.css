@@ -1,0 +1,61 @@
+body {
+  padding: 5%;
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #DAE9F2; 
+}
+
+a {}
+
+.main-title {
+	font-family: 'Almendra Display';
+	color: #494B3D;
+}
+
+.tile-container {
+	display: table;
+	width: 100%;
+}
+
+.tile {
+	display:table-cell;
+}
+
+.tile-spacer {
+	width:5%;
+}
+
+.tile-main {
+	width:50%;
+	box-sizing: border-box;
+	padding:80px 60px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Open Sans';
+	font-style: italic;
+	text-align: right;
+	color: #EFF3FF; 
+}
+
+.tile-main:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+	transition: 0.3s;
+}
+
+#left {
+  background-color:#7B915B;
+}
+
+#right {
+  background-color:#5985C2;
+}
+
+/* Use a media query to add a break point:; */
+@media screen and (max-width:600px) {
+	.tile {
+		display:block;
+	}
+	.tile-main {
+		width: auto;
+		padding:30px 40px;
+  }
+}
