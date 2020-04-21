@@ -5,7 +5,8 @@ module.exports = function() {
     		port: 3000
     	},
     	urls: {
-    		login: '/login'
+    		login: '/login',
+    		dashboard: '/dashboard'
     	}
     }
 }
